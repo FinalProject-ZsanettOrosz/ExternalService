@@ -110,7 +110,7 @@
 	</target>
 	<target name="run" depends="install">
 		<echo message="app start introsde.rest.ehealth.App in ${build.dir}" />
-		<java classname="introsde.assignment.soap.endpoint.PeoplePublisher" classpath="${build.dir}" fork="true">
+		<java classname="motivationpic.server.App" classpath="${build.dir}" fork="true">
 			<arg value="$JAVA_OPTS  -cp" />
 			<classpath>
 				<path location="build" />
