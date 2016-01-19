@@ -41,7 +41,7 @@ public class PictureResource {
 
     // Application integration
     @GET
-    @Produces({ MediaType.APPLICATION_XML, MediaType.APPLICATION_JSON, MediaType.TEXT_PLAIN })
+    @Produces({ MediaType.TEXT_PLAIN })
     public Response getPicture() {
     	InstagramClient ic = new InstagramClient();
     	
